@@ -17,42 +17,52 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am Yuji Liu, currently pursuing my undergraduate degree in Information Security at the School of Cyber Science and Engineering, Wuhan University. My research interests include computer architecture, trusted computing, and hardware security.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+During my undergraduate studies, I have built a solid academic foundation with a GPA of 3.88/4.0 (ranked 15/185 in my major). I have passed CET-6 (591) and CET-4 (586). I am proficient in CUDA/C/C++, Python, and Chisel/Verilog, familiar with development tools such as Make and Cmake, as well as communication libraries like Cutlass and NCCL, and debugging tools including cuda-gdb, GDB, and Nsight.
+
+Contact: 13718620138 | liuyuji010@126.com
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.07*: &nbsp;🎉🎉 Won Second Prize in the 18th Chinese Collegiate Computing Competition
+- *2025.07*: &nbsp;🎉🎉 Won Second Prize in the 2025 Network Technology Challenge Finals
+- *2025.01*: &nbsp;🎉🎉 Won Second Prize in National College Student Computer System Capability Competition - OS Design Track 
 
-# 📝 Publications 
+# 💻 Research & Project Experience
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+### Research on Communication and Computation Adaptive Socket System Based on Network Sharing | PhD Committee | 2025.10-Present
+- Completed unified deployment and communication optimization for large-scale scale-up and cross-node cluster scale-out
+- Utilized NCCL to improve inter-node communication, migration, and congestion handling
+- Implemented adaptive computation and communication scheduling algorithm based on network-shared task allocation
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+### Chinese Academy of Sciences "One Student, One Chip" Program | Student/TA | 2024.07-Present
+- Completed "One Student, One Chip" learning program (ysyx-240700013), reaching Stage B pipeline
+- Completed Nanjing University's "Program Analysis" course experiments independently, implemented a complete RV32I instruction set simulator NEMU in C, supporting privilege modes, disk, VGA and other device simulations
+- Following the "specification, design, implementation" three-stage learning approach, completed a five-stage pipelined RV32I processor in Chisel with data forwarding and hazard handling, supporting FLASH, PSRAM, SDRAM, VGA peripheral modules
+- Chip fabrication link: [https://docs.qq.com/sheet/DTUBBaVZzd01OY1FY](https://docs.qq.com/sheet/DTUBBaVZzd01OY1FY), Code repository: [https://github.com/LuLuji04/ysyx-workbench](https://github.com/LuLuji04/ysyx-workbench)
+- TA work: Mentored students to complete a five-stage pipelined RV32E processor in Chisel for Stage C assessment, implemented processor clock and hazard protection, Code repository: [https://github.com/LuLuji04/YSYX-SoC](https://github.com/LuLuji04/YSYX-SoC)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
+### Research on DoS Attack Resistance in Trusted Execution Environment | Intern | 2025.06-2025.08
+- Participated in research on Denial-of-Service (DoS) attack resistance in Trusted Execution Environment (TEE)
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.10* Wuhan University Special Scholarship
+- *2025.10* Wuhan University Merit Student
+- *2025.05* Leijun Computer Innovation and Development Funding
+- *2023.10* Wuhan University Active Social Activist
+ 
+# 📖 Education
+- *2026.09 - (Future)*, Institute of Computing Technology, Chinese Academy of Sciences, High Performance Computer Research Center, Computer Science and Technology (Direct Ph.D.)
+- *2022.09 - 2026.06*, Wuhan University, School of Cyber Science and Engineering, Information Security
+  - Academic Performance: GPA 3.88/4.0, Major Average 92.13, Weighted Average 91.89, Rank 15/185
+  - English Proficiency: CET-6: 591, CET-4: 586
+  - Core Courses: Mathematical Logic and EDA(99), Management(99), Circuits and Electronic Technology(98), Compiler Principles(97), Mathematical Foundations of Information Security(97), Computer Organization(96), Advanced Mathematics B2(95), Assembly Language(94)
+# 🛠 Skills
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+### Programming Languages
+- Proficient in CUDA / C / C++, Python, Chisel/Verilog
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+### Development Tools
+- Build Tools: Make, Cmake
+- Communication Libraries: Cutlass, NCCL
+- Debugging Tools: cuda-gdb, GDB, Nsight
