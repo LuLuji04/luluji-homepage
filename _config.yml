@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yuji Liu's Homepage"
-description              : "Computer Science Graduate Student, focusing on Computer Architecture, Security, and Trusted Computing Research"
+description              : "incoming Ph.D. student, focusing on HPC, Systems and AI."
 repository               : "LuLuji04/luluji-homepage"
 google_scholar_stats_use_cdn : true
 
@@ -22,8 +22,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Yuji Liu"
-  avatar           : "images/LYJ.png"
-  bio              : "School of Cyber Science and Engineering, Wuhan University"
+  avatar           : "images/LYJ.jpg"
+  bio              : "WHU -> ICT"
   location         : "Beijing, China"
   employer         :
   pubmed           : 

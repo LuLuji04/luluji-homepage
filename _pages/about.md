@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Yuji Liu, currently pursuing my undergraduate degree in Information Security at the School of Cyber Science and Engineering, Wuhan University. My research interests include computer architecture, trusted computing, and hardware security.
-
-During my undergraduate studies, I have built a solid academic foundation with a GPA of 3.88/4.0 (ranked 15/185 in my major). I have passed CET-6 (591) and CET-4 (586). I am proficient in CUDA/C/C++, Python, and Chisel/Verilog, familiar with development tools such as Make and Cmake, as well as communication libraries like Cutlass and NCCL, and debugging tools including cuda-gdb, GDB, and Nsight.
+I am Yuji Liu, an Information Security undergraduate at the School of Cyber Science and Engineering, Wuhan University, and an incoming Ph.D. student at the Institute of Computing Technology, Chinese Academy of Sciences. My research interests focus on high-performance computing (HPC) networks and computing, as well as AI infrastructure.
 
 Contact: 13718620138 | liuyuji010@126.com
 
@@ -31,20 +29,33 @@ Contact: 13718620138 | liuyuji010@126.com
 
 # 💻 Research & Project Experience
 
-### Research on Communication and Computation Adaptive Socket System Based on Network Sharing | PhD Committee | 2025.10-Present
+### Research on Communication and Computation Adaptive Socket System Based on Network Sharing | ICT | PhD Committee | 2025.10-Present
 - Completed unified deployment and communication optimization for large-scale scale-up and cross-node cluster scale-out
 - Utilized NCCL to improve inter-node communication, migration, and congestion handling
 - Implemented adaptive computation and communication scheduling algorithm based on network-shared task allocation
 
-### Chinese Academy of Sciences "One Student, One Chip" Program | Student/TA | 2024.07-Present
+### Chinese Academy of Sciences "One Student, One Chip" Program | ICT | Student/TA | 2024.07-Present
 - Completed "One Student, One Chip" learning program (ysyx-240700013), reaching Stage B pipeline
 - Completed Nanjing University's "Program Analysis" course experiments independently, implemented a complete RV32I instruction set simulator NEMU in C, supporting privilege modes, disk, VGA and other device simulations
 - Following the "specification, design, implementation" three-stage learning approach, completed a five-stage pipelined RV32I processor in Chisel with data forwarding and hazard handling, supporting FLASH, PSRAM, SDRAM, VGA peripheral modules
 - Chip fabrication link: [https://docs.qq.com/sheet/DTUBBaVZzd01OY1FY](https://docs.qq.com/sheet/DTUBBaVZzd01OY1FY), Code repository: [https://github.com/LuLuji04/ysyx-workbench](https://github.com/LuLuji04/ysyx-workbench)
-- TA work: Mentored students to complete a five-stage pipelined RV32E processor in Chisel for Stage C assessment, implemented processor clock and hazard protection, Code repository: [https://github.com/LuLuji04/YSYX-SoC](https://github.com/LuLuji04/YSYX-SoC)
+- TA work: Admissions Interviewer for the “One Student One Chip” Program, C-Stage Assessment Interviewer, and Teaching Assistant for Group C202
 
-### Research on DoS Attack Resistance in Trusted Execution Environment | Intern | 2025.06-2025.08
-- Participated in research on Denial-of-Service (DoS) attack resistance in Trusted Execution Environment (TEE)
+
+### Research on DoS Attack Resistance in Trusted Execution Environment | ICT | Intern | 2025.06-2025.08
+- Deployed and configured a Keystone TEE-based experimental platform for secure application testing
+- Evaluated the impact of DoS attacks on confidential workloads under multi-dimensional resource pressure, including CPU, memory, and I/O stress
+
+
+### National Innovation Project: Large Language Model Empowered Hardware Fuzzing Framework | WHU | Project Leader | 2024.09-2025.06
+- Designed and implemented a processor verification platform integrating Large Language Models (LLMs) with hardware fuzzing
+- Utilized LLMs for semantic-aware vulnerability identification and intelligent instruction generation, combined with coverage-guided fuzzing for high-throughput random exploration
+- Discovered and responsibly disclosed real-world vulnerabilities: 3 in XiangShan (#4664, #4666, #4668), 2 in NEMU (#4575, #4577), 1 in NutShell (#868*), and 1 in BOOM (CVE-2025-50897)
+- Proposed 1 official issue template improvement suggestion (#4555)
+- Source code repository: https://github.com/LuLuji04/LLM-HWFuzz  
+- *Issues marked with * were submitted to https://github.com/OpenXiangShan/NEMU/issues; others to https://github.com/OpenXiangShan/XiangShan/issues*
+
+
 # 🎖 Honors and Awards
 - *2025.10* Wuhan University Special Scholarship
 - *2025.10* Wuhan University Merit Student
@@ -52,11 +63,51 @@ Contact: 13718620138 | liuyuji010@126.com
 - *2023.10* Wuhan University Active Social Activist
  
 # 📖 Education
-- *2026.09 - (Future)*, Institute of Computing Technology, Chinese Academy of Sciences, High Performance Computer Research Center, Computer Science and Technology (Direct Ph.D.)
-- *2022.09 - 2026.06*, Wuhan University, School of Cyber Science and Engineering, Information Security
-  - Academic Performance: GPA 3.88/4.0, Major Average 92.13, Weighted Average 91.89, Rank 15/185
-  - English Proficiency: CET-6: 591, CET-4: 586
-  - Core Courses: Mathematical Logic and EDA(99), Management(99), Circuits and Electronic Technology(98), Compiler Principles(97), Mathematical Foundations of Information Security(97), Computer Organization(96), Advanced Mathematics B2(95), Assembly Language(94)
+
+<div style="background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%); border: 1px solid #e1e8f7; border-radius: 16px; padding: 2em; margin-bottom: 2em; box-shadow: 0 4px 20px rgba(102, 126, 234, 0.1); transition: all 0.3s ease;">
+  <div style="display: flex; align-items: center; gap: 1.5em;">
+    <div style="flex: 0 0 80px;">
+      <div style="width: 80px; height: 80px; border-radius: 50%; background: #f3f4f6; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); position: relative;">
+        <img src="images/ict-logo.png" alt="ICT Logo" style="width: 60px; height: 60px; border-radius: 50%; object-fit: contain; background: white; padding: 8px; position: absolute;" onload="this.style.display='block';" onerror="this.style.display='none'; this.parentElement.querySelector('.fallback').style.display='flex';" />
+        <div class="fallback" style="display: flex; color: white; font-weight: bold; font-size: 1.1em; align-items: center; justify-content: center; width: 100%; height: 100%; text-align: center;">ICT</div>
+      </div>
+    </div>
+    <div style="flex: 1;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8em;">
+        <h3 style="color: #2d3748; font-size: 1.3em; font-weight: 700; margin: 0; line-height: 1.2;">Institute of Computing Technology, Chinese Academy of Sciences (ICT)</h3>
+        <span style="background: #e5e7eb; color: #374151; padding: 0.3em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 600;">2026.09 - Future</span>
+      </div>
+      <div style="color: #4a5568; font-size: 1.1em; margin-bottom: 0.5em; font-weight: 600;">
+        High Performance Computer Research Center, Computer Science and Technology, Ph.D.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%); border: 1px solid #e1e8f7; border-radius: 16px; padding: 2em; margin-bottom: 2em; box-shadow: 0 4px 20px rgba(102, 126, 234, 0.1); transition: all 0.3s ease;">
+  <div style="display: flex; align-items: center; gap: 1.5em;">
+    <div style="flex: 0 0 80px;">
+      <div style="width: 80px; height: 80px; border-radius: 50%; background: #f3f4f6; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); position: relative;">
+        <img src="images/whu-logo.png" alt="Wuhan University Logo" style="width: 60px; height: 60px; border-radius: 50%; object-fit: contain; background: white; padding: 8px; position: absolute;" onload="this.style.display='block';" onerror="this.style.display='none'; this.parentElement.querySelector('.fallback').style.display='flex';" />
+        <div class="fallback" style="display: flex; color: white; font-weight: bold; font-size: 1.1em; align-items: center; justify-content: center; width: 100%; height: 100%; text-align: center;">WHU</div>
+      </div>
+    </div>
+    <div style="flex: 1;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8em;">
+        <h3 style="color: #2d3748; font-size: 1.3em; font-weight: 700; margin: 0; line-height: 1.2;">Wuhan University (WHU)</h3>
+        <span style="background: #e5e7eb; color: #374151; padding: 0.3em 0.8em; border-radius: 20px; font-size: 0.85em; font-weight: 600;">2022.09 - 2026.06</span>
+      </div>
+      <div style="color: #4a5568; font-size: 1.1em; margin-bottom: 0.5em; font-weight: 600;">
+        School of Cyber Science and Engineering, B.Eng. in Information Security
+      </div>
+      <div style="color: #6b7280; font-size: 0.98em;">
+        GPA 3.88/4.0 (Ranked 15/185); CET-6: 591, CET-4: 586
+      </div>
+    </div>
+  </div>
+</div>
+
+
 # 🛠 Skills
 
 ### Programming Languages
